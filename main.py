@@ -1,9 +1,13 @@
 from sum import add
+from difference import subtract
 
 def welcome():
-    print("Welcome to the Command-Line Calculator!")
+    print("Welcome to the Simple Calculator!")
 
 if __name__ == "__main__":
     welcome()
-    sum_result = add(20, 10)
-    print(f"20 + 10 = {sum_result}")
+    sum_result = add(15, 5)
+    print(f"15 + 5 = {sum_result}")
+
+    diff_result = subtract(15, 5)
+    print(f"15 - 5 = {diff_result}")
